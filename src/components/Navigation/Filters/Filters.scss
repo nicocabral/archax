@@ -1,0 +1,13 @@
+.cmp-filters {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    .title {
+        font-weight: 600;
+    }
+    .min-max {
+        display: flex;
+        justify-content: space-between;
+    }
+}

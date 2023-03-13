@@ -1,0 +1,19 @@
+.cmp-applications {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    &__box {
+        border: 1px solid black;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px;
+        gap: 20px;
+        min-width: 180px;
+        max-width: 180px;
+        align-items: center;
+        .title {
+            font-weight: 600;
+        }
+    }
+}

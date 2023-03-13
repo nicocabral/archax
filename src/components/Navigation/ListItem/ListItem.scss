@@ -1,0 +1,7 @@
+.cmp-navigation__list-item {
+    cursor: pointer;
+    padding: 5px 0;
+    &:hover {
+        text-decoration: underline;
+    }
+}

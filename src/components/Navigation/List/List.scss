@@ -1,0 +1,13 @@
+.cmp-navigation__list {
+    padding: 0 0 0 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    &.toggle {
+        display: block;
+    }
+    &.hide {
+        display: none;
+    }
+}
